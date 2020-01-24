@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#bf271f</color>
+    <color name="colorPrimaryDark">#f53d3d</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorLetras">#FFFFFF</color>
+    <color name="buttonShape">#FABBBB</color>
+    <color name="vermelho">#B22222</color>
+    <color name="vermelhoForte">#800000</color>
 </resources>

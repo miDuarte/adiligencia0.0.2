@@ -1,3 +1,37 @@
 <resources>
-    <string name="app_name">adiligencia 0.1</string>
+    <string name="app_name">A Diligência 0.1</string>
+    <string name="senha">Senha</string>
+    <string name="e_mail">E-mail</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="lorem_impsum_dolor_sit_amet_consectetur_adipiscing_elit_ut_vitae_massa_dapibus_rutrum_nunc_et_tristique_nisl_duis_suscipit_leo_nulla_et_varius_magna_finibus_in_suspendisse_hendrerit_rhoncus_lacinia">Lorem impsum dolor sit amet, consectetur adipiscing elit. Ut vitae massa dapibus,rutrum nunc et, tristique nisl. Duis suscipit leo nulla, et varius magna finibus in. Suspendisse hendrerit rhoncus lacinia.</string>
+    <string name="experimente">Experimente!</string>
+    <string name="esqueceu_a_sua_senha">Esqueceu a sua senha?</string>
+    <string name="n_o_cadastrado_cadastre_se">Não é cadastrado? Cadastre-se</string>
+    <string name="ou_acesse">ou acesse:</string>
+    <string name="adili">A Diligência</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="home">HOME</string>
+    <string name="buscar_dilig_ncias">BUSCAR DILIGÊNCIAS</string>
+    <string name="sobre">SOBRE</string>
+    <string name="minhas_dilig_ncias">MINHAS DILIGÊNCIAS</string>
+    <string name="termos_e_condi_es">TERMOS E CONDIÇÕES</string>
+    <string name="sair">SAIR</string>
+    <string name="menu">Menu</string>
+    <string name="a_dilig_ncia">A Diligência</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_exercicio_maps">Map</string>
+
 </resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente"
+    tools:context=".cadastrar">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="372dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/cadastre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/cadastre"
+        android:layout_width="248dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="456dp"
+        android:text="CADASTRE-SE"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/nomecadast"
+        android:layout_width="346dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/emailcadast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadastre" />
+
+    <EditText
+        android:id="@+id/emailcadast"
+        android:layout_width="346dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/senhacadast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomecadast" />
+
+    <EditText
+        android:id="@+id/senhacadast"
+        android:layout_width="346dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="Senha "
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/repetirsecadast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailcadast" />
+
+    <EditText
+        android:id="@+id/repetirsecadast"
+        android:layout_width="346dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="165dp"
+        android:ems="10"
+        android:hint="Repetir Senha"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/senhacadast" />
+
+    <Button
+        android:id="@+id/botaocad"
+        android:layout_width="231dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="62dp"
+        android:background="@drawable/buttonshape2"
+        android:text="CADASTRAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/repetirsecadast" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
