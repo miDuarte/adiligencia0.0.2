@@ -71,7 +71,7 @@ public class exercicioMaps extends AppCompatActivity implements OnMapReadyCallba
         mMap.addCircle(
                 new CircleOptions()
                 .center(sfpaula)
-                .radius(150000)
+                .radius(140000)
                 .strokeWidth(3f)
                 .strokeColor(Color.RED)
                 .fillColor(Color.argb(70,150,50,50))

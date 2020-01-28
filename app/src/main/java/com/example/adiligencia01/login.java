@@ -62,7 +62,7 @@ public class login extends AppCompatActivity {
     }
 
     public void proximaTelaexercicioMaps(View view) {
-        Intent intent = new Intent(this, exercicioMaps.class);
+        Intent intent = new Intent(this, MapsActivity.class);
         startActivity(intent);
     }
 
